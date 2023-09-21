@@ -1,0 +1,239 @@
+<html>
+
+<head>
+    <title>career Counseling for secondary education</title>
+    
+    <link rel="stylesheet" type="text/css" href="webpage.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo"> Career <span> Guidance</span> </h2>
+            <img class="mlogo" src="C:\Users\Mungi Mounika\OneDrive\Desktop\ministry of education logo.png" alt="ministry of education logo.png">
+                <a href="#" class="btn" id="signin">sign in</a>
+                
+                <ul>
+                    <div id="header">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="#header">Home</a></li>
+                                    <li><a href="#about">about us</a></li>
+                                    <li><a href="#career paths">career paths</a></li>
+                                    <li><a href="#aptitude test">aptitude test</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header-text">
+                                <p class="hi"><spam style="color:white">Hi..!</spam></p>
+                                <h1>Welcome to <spam style="color:#f9004d">career choices</spam><br> Counseling</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hari">
+                        <div id="about">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="about-col-1">
+                                        <img src="C:\Users\Mungi Mounika\OneDrive\Desktop\123.jpg" alt="123.jpg"
+                                            width="300px" height="500px" />
+                                    </div>
+                                    <div class="about-col-2">
+                                        <h1 class="sub-title">
+                                            <spam style="color:#f9004d">Confused</spam><br>about career choices?
+                                        </h1>
+                                        <h2>Use the list below to help you begin that process.</h2>
+                                        <ol>
+                                            <ul>1. examine yourself</ul>
+                                            <ul>2. reflect on your motivations</ul>
+                                            <ul>3. think about your long-term goals</ul>
+                                            <ul>4. take differetn self-assessment tests</ul>
+                                            <ul>5. seek out professional resources</ul>
+                                            <ul>6. explore career options on your list</ul>
+                                        </ol>
+                                        <div class="tab-titles">
+                                            <p class="tab-links active-link" onclick="opentab('Skills')">Test yourself
+                                            </p>
+                                            <p class="tab-links" onclick="opentab('Experience')">Explore yourself</p>
+                                            <p class="tab-links" onclick="opentab('Education')">Achieve your goal</p>
+                                        </div>
+                                        <div class="tab-contents active-tab" id="Skills">
+                                            <ul>
+                                                <ul><span>step 01:</span><br>Give aptitude test</ul>
+                                                <ul><span>step 02:</span><br>Get the results</ul>
+                                                <ul><span>step 03:</span><br>Choose your path</ul>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-contents" id="Experience">
+                                            <ul>
+                                                <ul><span>step 01:</span><br>Know about yourself</ul>
+                                                <ul><span>step 02:</span><br>Invest your knowledge based upon your
+                                                    result</ul>
+                                                <ul><span>step 03:</span><br>Set your goal</ul>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-contents" id="Education">
+                                            <ul>
+                                                <ul><span>step 01:</span><br>explore your career </ul>
+                                                <ul><span>step 02:</span><br>choose your career</ul>
+                                                <ul><span>step 03:</span><br>Go Ahead</ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                var tablinks = document.getElementsByClassName("tab-links");
+                                var tabcontents = document.getElementsByClassName("tab-contents");
+                                function opentab(tabname) {
+                                    for (tablink of tablinks) {
+                                        tablink.classList.remove("active-link");
+                                    }
+                                    for (tabcontent of tabcontents) {
+                                        tabcontent.classList.remove("active-tab");
+                                    }
+                                    event.currentTarget.classList.add("active-link");
+                                    document.getElementById(tabname).classList.add("active-tab");
+                                }
+                            </script>
+                        </div>
+                        <div id="career paths">
+                            <div class="container">
+                                <h1 class="sub-title"><spam style="color:#f9004d">career</spam> paths</h1>
+                                <div class="services-list">
+                                    <div>
+                                        <i class="fa-solid fa-code"></i>
+                                        <h2><spam style="color:white">class 10-12</spam></h2>
+                                        <p> expert guidance and 5-dimensional assessment to help you discover your
+                                            perfect career and choose the right course and college</p>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                    <div>
+                                        <i class="graduation-cap-solid.svg"></i>
+                                        <h2><spam style="color:whitesmoke">College and Graduates</spam></h2>
+                                        <p>5-dimensional assessment and superior guidence to help you discover your
+                                            perfect career and choose the best next step</p>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-gamepad"></i>
+                                        <h2><spam style="color:rgb(226, 222, 185)">Talent development</spam></h2>
+                                        <p>comprehensive Guidance and personalised application development for
+                                            admissions to liberal arts programs</p>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="aptitude test">
+                            <div class="container">
+                                <h1 class="sub-title">How do we <spam style="color:#f9004d">help?</spam></h1>
+                                <p>3 simple steps for career selection & planning</p>
+                                <div class="work-list">
+                                    <div class="work">
+
+
+                                        <div class="layer">
+                                            <h3>step 01</h3>
+                                            <h2><spam style="color:hsl(37, 93%, 43%)">Take aptitude test </spam><br></h2>
+                                            <p>Run plenty of practice tests. </p>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="work">
+
+                                        <div class="layer">
+                                            <h3>step 02</h3>
+                                            <h2><spam style="color:hsl(37, 93%, 43%)">Choose career path</spam><br></h2>
+                                            <p>Understand results of your report and identify your key carreer goal.</p>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="work">
+                                        <div class="layer">
+                                            <h3>step 03</h3>
+                                            <h2><spam style="color:hsl(37, 93%, 43%)">Planning and Preparation</spam><br></h2>
+                                            <p>Seek guidance to plan the next steps and achieve your career goals.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn">start</a>
+                                </div>
+                            </div>
+                        </div>
+<div >
+                        <div class="d-flex flex-column align-items-center">
+                           </div>
+                          
+                           <h3 class="chinnu">Top Categories of <spam style="color:#f9004d">Career Options</spam></h3>
+
+                           <div class="grid-container">
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Engineering">Engineering & Technology</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Marketing_management">Management & Marketing</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Art">Creativity & Art</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>  
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Art">Creativity & Art</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Indian_Institutes_of_Science_Education_and_Research">Science & Research</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://ischoolconnect.com/blog/difference-between-aerospace-engineering-and-aviation/">Aerospace & Aviation</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>  
+                            <div class="grid-item"> <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Entertainment_media">Media & Entertainment</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>
+                            <div class="grid-item"><button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Law_%26_Order">Law & Order</a></h2>
+                                <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button></div>
+                            <div class="grid-item"> <button id="tabsskills" name="mytabs" onclick="skills()" type="button"></button>
+                                <h2><a href="https://en.wikipedia.org/wiki/Food_processing">Agriculture-food Processing</a></h2></div>  
+                           </div>
+                            <div id="contact">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="contact-left">
+                                        <h1 class="sub-title"><spam "color:#f9004d">Contact </spam>Us</h1>
+                                        <p><i class="fa-solid fa-paper-plane"></i>errormasters@gmail.com</p>
+                                        <p><i class="fa-solid fa-square-phone"></i>7095959110</p>
+
+                                        <p>
+                                        <h5>Contact Information</h5>
+                                        vadalpudi ,kanithi RH Colony
+                                        VISHAKAPATNAM ,ANDHRA PRADESH
+                                        530046</p>
+                                        
+                                        <div class="social-icons">
+                                            <a href="">
+                                                <a href=""><i class="fa fa-facebook"></i></a>
+                                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                <div class="contact-right">
+                                        <form>
+                                            <input type="text" name="Name" placeholder="Your Name" required>
+                                            <input type="email" name="Email" placeholder="Your Email" required>
+                                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                            <button type="submit" class="btn btn2">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="copyright">
+                                <p>copyright &copy;.ERROR MASTERS <i class="fa-solid fa-heart"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+</body>
